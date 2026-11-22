@@ -56,7 +56,7 @@ const PROMO_PACKS = [
 /**
  * CATÁLOGO DE PRODUCTOS
  * Para agregar o editar un polo, solo duplica un objeto en este array.
- * image: "54.png"
+ * image: "32.png"
  */
 const PRODUCTS = [
   {
