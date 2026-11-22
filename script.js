@@ -69,7 +69,7 @@ const PRODUCTS = [
     colors: ["Negro", "Blanco"],
     sizes: ["M", "L"],
     emoji: "👻",
-    image: "" // TODO: reemplazar con ruta de imagen en /assets/polo-scary.webp
+    image: "41.png" 
   },
   {
     id: "og-002",
