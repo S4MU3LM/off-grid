@@ -69,7 +69,7 @@ const PRODUCTS = [
     colors: ["Negro", "Blanco"],
     sizes: ["M", "L"],
     emoji: "👻",
-    image: "41.png" 
+    image: "55.png" 
   },
   {
     id: "og-002",
