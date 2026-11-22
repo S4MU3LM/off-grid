@@ -56,7 +56,7 @@ const PROMO_PACKS = [
 /**
  * CATÁLOGO DE PRODUCTOS
  * Para agregar o editar un polo, solo duplica un objeto en este array.
- * TODO: Reemplaza `image: "53.png"` con la ruta real en tu carpeta /assets/ (ej. "./assets/polo-scary.webp")
+ * TODO:image: "53.png"
  */
 const PRODUCTS = [
   {
