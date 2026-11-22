@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OFF-GRID | Polos Únicos Streetwear · Est. 2026</title>
+  <meta name="description" content="Polos streetwear de algodón pesado 20/1 (Boxy Fit y Oversize) con estampado DTF de alta definición. Envíos a todo el Perú por Shalom y Olva Courier." />
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:title" content="OFF-GRID | Polos Únicos · Est. 2026" />
+  <meta property="og:description" content="Algodón 20/1 · Boxy Fit & Oversize · Estampado DTF. Envíos nacionales vía Shalom y Olva." />
+  <meta property="og:type" content="website" />
+  <!-- TODO: Reemplazar con la URL final de tu GitHub Pages + /assets/og-cover.jpg -->
+  <meta property="og:image" content="./assets/og-cover.jpg" />
+
+  <!-- Tipografías Google Fonts: Impacto urbano + lectura limpia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Fondo iridiscente fijo sutil -->
+  <div class="iridescent-bg" aria-hidden="true"></div>
+
+  <!-- Barra superior azul cobalto tipo cinta promocional -->
+  <div class="top-ticker">
+    <div class="ticker-track">
+      <span>⚡ ALGODÓN PESADO 20/1 · ESTAMPADO DTF PREMIUM · ENVÍOS A TODO EL PERÚ (SHALOM / OLVA) ⚡</span>
+      <span>🔥 PACKS DESDE S/ 100 · DISEÑOS DE CINE, RAVE, ANIME & STREETWEAR · EST. 2026 🔥</span>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-badge" aria-label="Off-Grid Inicio">
+        <span class="brand-star">★</span>
+        <div class="brand-text">
+          <span class="brand-name">OFF-GRID</span>
+          <span class="brand-sub">POLOS ÚNICOS · EST. 2026</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#packs">Packs & Promos</a>
+        <a href="#como-pedir">Cómo Pedir</a>
+      </nav>
+
+      <button type="button" class="btn btn-cobalt btn-sm" id="btnPdfHeader">
+        📄 Catálogo PDF
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="hero-pills">
+            <span class="pill pill-yellow">EST. 2026 · PERÚ</span>
+            <span class="pill pill-outline">ALGODÓN 20/1</span>
+            <span class="pill pill-outline">DTF HIGH-DEF</span>
+          </div>
+
+          <h1 class="hero-title">
+            SALTE DEL MOLDE.<br />
+            <span class="text-yellow">VISTE SIN REGLAS.</span>
+          </h1>
+
+          <p class="hero-desc">
+            Polos independientes de alto gramaje en cortes <strong>Boxy Fit</strong> y <strong>Oversize</strong>. 
+            Cultura underground, rave, terror de culto, anime y diseños personalizados hechos bajo demanda.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#catalogo" class="btn btn-yellow">Ver Drops Disponibles</a>
+            <button type="button" class="btn btn-dark" id="btnWhatsappHero">
+              📲 Pedir Catálogo PDF
+            </button>
+          </div>
+
+          <div class="hero-trust">
+            <span>🚚 Envíos Shalom & Olva</span>
+            <span>💜 Yape / Plin</span>
+            <span>📍 Base Huaral / Chancay</span>
+          </div>
+        </div>
+
+        <!-- Tarjeta destacada Hero -->
+        <div class="hero-showcase">
+          <div class="showcase-card">
+            <div class="showcase-tag">DROP DESTACADO</div>
+            <div class="showcase-visual" id="heroVisualPreview">
+              <!-- TODO: Reemplazar con imagen real en /assets/ -->
+              <div class="mockup-placeholder">
+                <span class="mockup-icon">👽</span>
+                <p>SCARY TIME / WAZAAAA<br /><small>DTF FULL PRINT · 20/1</small></p>
+              </div>
+            </div>
+            <div class="showcase-footer">
+              <div>
+                <span class="old-price">S/ 55.00</span>
+                <span class="current-price">S/ 49.90</span>
+              </div>
+              <div class="cut-badges">
+                <span class="badge-cut">BOXY FIT</span>
+                <span class="badge-cut">OVERSIZE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Packs Promocionales -->
+    <section id="packs" class="section packs-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="pill pill-cobalt">COMBOS & OFERTAS</span>
+          <h2 class="section-title">ARMA TU PACK <span class="text-yellow">OFF-GRID</span></h2>
+          <p class="section-subtitle">Combina diseños de cualquier categoría. Selecciona un pack para cotizarlo directo por WhatsApp.</p>
+        </div>
+
+        <div class="packs-grid" id="packsContainer">
+          <!-- Renderizado dinámico desde script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Catálogo -->
+    <section id="catalogo" class="section catalog-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="pill pill-yellow">COLECCIÓN 2026</span>
+          <h2 class="section-title">CATÁLOGO DE <span class="text-yellow">POLOS</span></h2>
+        </div>
+
+        <!-- Aviso clave de disponibilidad -->
+        <div class="stock-alert" role="note">
+          <strong>⚠️ NOTA DE STOCK EN POLO BLANCO:</strong> El corte <strong>Boxy Fit en color blanco está AGOTADO</strong>. 
+          Los polos blancos están disponibles únicamente en corte <strong>Oversize</strong> (tallas M y L).
+        </div>
+
+        <!-- Controles de filtro y búsqueda -->
+        <div class="catalog-controls">
+          <div class="filter-group" id="categoryFilters" aria-label="Filtrar por categoría">
+            <!-- Botones generados desde script.js -->
+          </div>
+
+          <div class="filter-right">
+            <select id="cutFilter" class="control-select" aria-label="Filtrar por corte">
+              <option value="all">Todos los cortes</option>
+              <option value="Boxy Fit">Solo Boxy Fit</option>
+              <option value="Oversize">Solo Oversize</option>
+            </select>
+
+            <input 
+              type="search" 
+              id="searchInput" 
+              class="control-input" 
+              placeholder="Buscar diseño (ej. Rave, Terror, Anime...)" 
+              aria-label="Buscar diseño"
+            />
+          </div>
+        </div>
+
+        <!-- Grilla de productos -->
+        <div class="products-grid" id="productsContainer">
+          <!-- Renderizado dinámico desde script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proceso de Compra y Envíos -->
+    <section id="como-pedir" class="section info-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="pill pill-outline">SIN VUELTAS</span>
+          <h2 class="section-title">¿CÓMO <span class="text-yellow">PEDIR?</span></h2>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-num">01</span>
+            <h3>ELIGE TU POLO O PACK</h3>
+            <p>Selecciona diseño, color, corte (Boxy Fit u Oversize) y talla (M o L), o solicita el Catálogo PDF completo.</p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-num">02</span>
+            <h3>CONFIRMA POR WHATSAPP</h3>
+            <p>Se genera tu mensaje automático al <strong>+51 931 940 079</strong>. Validamos stock y coordinamos si deseas diseño personalizado.</p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-num">03</span>
+            <h3>YAPE / PLIN Y ENVÍO</h3>
+            <p>Producción bajo demanda con adelanto del <strong>50% o 100% vía Yape o Plin</strong>. Despachamos a todo el Perú por <strong>Shalom</strong> u <strong>Olva Courier</strong>.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="brand-badge footer-badge">
+          <span class="brand-star">★</span>
+          <span class="brand-name">OFF-GRID</span>
+        </div>
+        <p class="footer-copy">Streetwear Independiente · Algodón 20/1 · Estampado DTF.<br />Operando desde Huaral / Chancay para todo el Perú.</p>
+      </div>
+
+      <div class="footer-links">
+        <button type="button" class="btn btn-yellow btn-sm" id="btnWhatsappFooter">
+          WhatsApp: +51 931 940 079
+        </button>
+        <span class="footer-meta">© 2026 OFF-GRID. Todos los derechos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de Configuración Rápida del Polo -->
+  <div class="modal-backdrop" id="orderModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button type="button" class="modal-close" id="closeModalBtn" aria-label="Cerrar ventana">✕</button>
+      
+      <div class="modal-header">
+        <span class="pill pill-yellow" id="modalCategory">CATEGORÍA</span>
+        <h3 id="modalTitle">Nombre del Polo</h3>
+        <p class="modal-price-line">
+          <span class="old-price" id="modalOldPrice">S/ 55.00</span>
+          <span class="current-price" id="modalPrice">S/ 49.90</span>
+          <span class="dtf-tag" id="modalDtf">DTF A3</span>
+        </p>
+      </div>
+
+      <form id="quickOrderForm" class="modal-form">
+        <!-- Color -->
+        <div class="form-group">
+          <label>1. Elige Color:</label>
+          <div class="option-pills" id="modalColors"></div>
+        </div>
+
+        <!-- Corte -->
+        <div class="form-group">
+          <label>2. Elige Corte:</label>
+          <div class="option-pills" id="modalCuts"></div>
+          <small class="rule-hint" id="cutRuleHint"></small>
+        </div>
+
+        <!-- Talla -->
+        <div class="form-group">
+          <label>3. Elige Talla:</label>
+          <div class="option-pills" id="modalSizes"></div>
+        </div>
+
+        <!-- Pack / Modalidad -->
+        <div class="form-group">
+          <label for="modalPromoSelect">4. ¿Aplicar Pack Promocional? (Opcional)</label>
+          <select id="modalPromoSelect" class="control-select full-width"></select>
+        </div>
+
+        <!-- Courier -->
+        <div class="form-group">
+          <label for="modalCourier">5. Método de Envío Preferido:</label>
+          <select id="modalCourier" class="control-select full-width">
+            <option value="Shalom (Pago en destino / Agencia)">Shalom (Agencia / Pago en destino)</option>
+            <option value="Olva Courier (Domicilio / Agencia)">Olva Courier (Domicilio / Agencia)</option>
+            <option value="Entrega local Huaral / Chancay">Entrega local (Huaral / Chancay)</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-yellow full-width btn-lg">
+          📲 Enviar Pedido por WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Botón Flotante WhatsApp -->
+  <button type="button" class="whatsapp-float" id="whatsappFloatBtn" aria-label="Chatear por WhatsApp">
+    <span class="wa-icon">💬</span>
+    <span class="wa-label">Pedir / Catálogo PDF</span>
+  </button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
