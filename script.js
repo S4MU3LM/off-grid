@@ -63,7 +63,7 @@ const PRODUCTS = [
     id: "og-001",
   name: "MARTIN GARRIX • ONE TWO THREE",
   category: "Música / Electrónica",
-  price: 49.90,
+  price: 42.90,
   oldPrice: 55.00,
   dtfType: "DTF Full Print XL",
   colors: ["Blanco", "Negro"],
