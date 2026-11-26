@@ -61,27 +61,27 @@ const PROMO_PACKS = [
 const PRODUCTS = [
   {
     id: "og-001",
-  name: "MARTIN GARRIX • ONE TWO THREE",
-  category: "Música / Electrónica",
-  price: 42.90,
-  oldPrice: 55.00,
-  dtfType: "DTF Full Print XL",
-  colors: ["Blanco", "Negro"],
-  sizes: ["M", "L"],
-  emoji: "🎧",
-  image: "MartinC..jpeg" 
+    name: "MARTIN GARRIX • ONE TWO THREE",
+    category: "Música / Electrónica",
+    price: 42.90,
+    oldPrice: 55.00,
+    dtfType: "DTF Full Print XL",
+    colors: ["Blanco", "Negro"],
+    sizes: ["M", "L"],
+    emoji: "🎧",
+    image: "MartinC..jpeg" 
   },
   {
     id: "og-002",
-    name: "BASS FREQUENCY 140 BPM",
+    name: "AMERICAS TOUR 2026",
     category: "Música / Electrónica",
-    price: 45.90,
+    price: 47.90,
     oldPrice: 55.00,
-    dtfType: "DTF Estándar A3",
-    colors: ["Negro", "Blanco"],
+    dtfType: "DTF Full Print XL",
+    colors: ["Negro"],
     sizes: ["M", "L"],
-    emoji: "🎛️",
-    image: "" // TODO: reemplazar con ruta de imagen en /assets/polo-bass.webp
+    emoji: "🌎",
+    image: "TU_IMAGEN.png"
   },
   {
     id: "og-003",
