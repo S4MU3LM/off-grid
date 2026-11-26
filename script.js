@@ -81,31 +81,31 @@ const PRODUCTS = [
     colors: ["Negro"],
     sizes: ["M", "L"],
     emoji: "🌎",
-    image: "TU_IMAGEN.png"
+    image: "Tour.jpeg"
   },
   {
     id: "og-003",
-    name: "CYBER RONIN ARCHIVE",
-    category: "Anime / Pop",
-    price: 49.90,
-    oldPrice: 59.90,
+    name: "VICE PALMS • VI EDITION",
+    category: "Streetwear",
+    price: 39.90,
+    oldPrice: 45.00,
     dtfType: "DTF Full Print XL",
     colors: ["Negro"],
     sizes: ["M", "L"],
-    emoji: "⚔️",
-    image: "" // TODO: reemplazar con ruta de imagen en /assets/polo-ronin.webp
+    emoji: "🌴",
+    image: "GTABLACK.jpeg"
   },
   {
     id: "og-004",
-    name: "OFF-GRID CORE LOGO",
-    category: "Streetwear",
-    price: 35.90,
-    oldPrice: 45.00,
-    dtfType: "DTF Minimal Pecho",
-    colors: ["Negro", "Blanco"],
+    name: "BLUE CROSS • Martin Garrix",
+    category: "Música / Electrónica",
+    price: 45.90,
+    oldPrice: 55.00,
+    dtfType: "DTF Full Print XL",
+    colors: ["Blanco"],
     sizes: ["M", "L"],
-    emoji: "★",
-    image: "" // TODO: reemplazar con ruta de imagen en /assets/polo-core.webp
+    emoji: "💠",
+    image: "MB.jpeg"
   },
   {
     id: "og-005",
