@@ -109,27 +109,27 @@ const PRODUCTS = [
   },
   {
     id: "og-005",
-    name: "ACID RAVE SYSTEM",
-    category: "Música / Electrónica",
-    price: 47.90,
+    name: "SCARY TIME • WAZAAAAA!",
+    category: "Cine / Terror",
+    price: 49.90,
     oldPrice: 55.00,
-    dtfType: "DTF Estándar A3",
-    colors: ["Negro", "Blanco"],
+    dtfType: "DTF Full Print XL",
+    colors: ["Negro"],
     sizes: ["M", "L"],
-    emoji: "👽",
-    image: "" // TODO: reemplazar con ruta de imagen en /assets/polo-acid.webp
+    emoji: "👻",
+    image: "waza.jpeg"
   },
   {
     id: "og-006",
-    name: "FINAL BOSS GLITCH",
+    name: "SPIDER-MAN • BRAND NEW DAY",
     category: "Anime / Pop",
-    price: 44.90,
+    price: 49.90,
     oldPrice: 55.00,
-    dtfType: "DTF Estándar A4/A3",
-    colors: ["Negro", "Blanco"],
+    dtfType: "DTF Full Print XL",
+    colors: ["Blanco"],
     sizes: ["M", "L"],
-    emoji: "👾",
-    image: "" // TODO: reemplazar con ruta de imagen en /assets/polo-glitch.webp
+    emoji: "🕷️",
+    image: "spide1.jpeg"
   }
 ];
 
