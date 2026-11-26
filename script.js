@@ -61,15 +61,15 @@ const PROMO_PACKS = [
 const PRODUCTS = [
   {
     id: "og-001",
-    name: "SCARY TIME · WAZAAAA",
-    category: "Cine / Terror",
-    price: 49.90,
-    oldPrice: 55.00,
-    dtfType: "DTF Full Print XL",
-    colors: ["Negro", "Blanco"],
-    sizes: ["M", "L"],
-    emoji: "👻",
-    image: "55.png" 
+  name: "MARTIN GARRIX • ONE TWO THREE",
+  category: "Música / Electrónica",
+  price: 49.90,
+  oldPrice: 55.00,
+  dtfType: "DTF Full Print XL",
+  colors: ["Blanco", "Negro"],
+  sizes: ["M", "L"],
+  emoji: "🎧",
+  image: "MartinC..jpeg" 
   },
   {
     id: "og-002",
